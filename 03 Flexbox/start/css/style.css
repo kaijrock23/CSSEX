@@ -7,15 +7,25 @@
     vertical-align: baseline;
 }
 
+html,
+body {
+    height: 100%;
+}
+
 nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
     width: 200px;
     height: 100%;
-    align-items: center;
+
 }
 
 .navigation a {
     color: #2b2b2b;
+    display: flex;
+    flex-direction: column;
 }
 
 .navigation a:hover {
@@ -26,7 +36,6 @@ nav {
 .avatar {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     align-items: center;
-    margin-top: 800px;
+
 }
